@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -30,4 +30,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-span {
+  margin-right: 2%;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  color: #2C2A50;
+}
+
+.App-span-to {
+  margin-right: 1%;
+  margin-left: 1%;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  color: #6E77C1;
+}
+
+.App-span-allday {
+  margin-left: 1%;
+  color: #6E77C1;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  line-height: 24px;
 }

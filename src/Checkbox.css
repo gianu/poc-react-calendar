@@ -1,0 +1,19 @@
+.mojo-checkbox {
+    display: none;
+}
+
+.mojo-checkbox + label{
+    background:url('unchecked.svg') no-repeat;
+    height: 36px;
+    width: 36px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+.mojo-checkbox:checked + label{
+    background:url('checked.svg') no-repeat;
+    height: 36px;
+    width: 36px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
